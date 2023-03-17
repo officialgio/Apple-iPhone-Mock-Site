@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Nav -->
+  <nav class="flex">
+    <a href="./index.html" class="logo fs-400">iPhone 13 Pro</a>
+    <div class="nav__links">
+      <a href="#">Overview</a>
+      <a href="#">Switching to iPhone</a>
+      <a href="#">Tech Specs</a>
+      <button class="buy-button">Buy</button>
+    </div>
+  </nav>
+  <!-- First Page -->
+  <section class="first__page flex">
+    <div class="first__page-text">
+      <h1 class="first__page__title fs-400">iPhone 13 Pro</h1>
+      <h2 class="first__page__subtitle fs-700">Oh. So. Pro.</h2>
+    </div>
+    <!-- Video -->
+    <video class="intro-video" autoplay muted src="./images/intro-animation.mov"></video>
+  </section>
+  <!-- Second Page -->
+  <section class="second__page flex">
+    <video class="smoke-video" src="./images/smoke-video.mp4" autoplay loop muted></video>
+    <div class="second-text fs-650">
+      <p class="text__container">
+        <span class="highlight">A dramatically more powerful camera system.</span>
+        <span class="highlight">A display so responsive every interaction feels new again.</span>
+        <span class="highlight">The worlds faster smartphone chip.</span>
+        <span class="highlight">Exceptional durability.</span>
+        <span class="highlight">And a huge leap battery life.</span>
+        </br>
+        </br>
+        <span class="highlight">Let's pro</span>
+      </p>
+    </div>
+  </section>
+  <!-- Third Page -->
+  <section class="third__page">
+    <!-- Split Phone Container -->
+    <div class="product-text__container flex">
+      <div class="product-text-left">
+        <p class="phone-title">iPhone 13 Pro Max</p>
+        <p class="phone-size pro-size fs-600">6.7"</p>
+      </div>
+      <div class="product-text-right">
+        <div class="phone-title">iPhone 13 Max</div>
+        <p class="phone-size max-size fs-600">6.1"</p>
+      </div>
+    </div>
+    <div class="product__images">
+      <img class="large-phone" src="./images/large-phone.png" alt="">
+      <img class="small-phone" src="./images/small-phone.png" alt="">
+    </div>
+    <p class="retina-line fs-200">Super Retina XDR display with proMotion</p>
+  </section>
+
+  <!-- Fourth Page -->
+  <section class="fourth__page flex">
+    <!-- Left -->
+    <div class="purchase-left flex flex-1">
+      <div class="phone-gallery flex">
+        <div class="phone-gallery__container blue-cont flex">
+          <img class="blue-back" src="./images/blue-iphone-back.png" alt="">
+        </div>
+        <div class="phone-gallery__container blue-cont flex">
+          <img class="silver-back" src="./images/silver-iphone-back.png" alt="">
+        </div>
+        <div class="phone-gallery__container blue-cont flex">
+          <img class="gold-back" src="./images/gold-iphone-back.png" alt="">
+        </div>
+        <div class="phone-gallery__container blue-cont flex">
+          <img class="graphite-back" src="./images/graphite-iphone-back.png" alt="">
+        </div>
+      </div>
+      <div class="swatch__container">
+        <div class="swatches flex">
+          <img src="./images/swatch-blue.svg" swatch="blue" alt="">
+          <img src="./images/swatch-silver.svg" swatch="silver" alt="">
+          <img src="./images/swatch-gold.svg" swatch="gold" alt="">
+          <img src="./images/swatch-graphite.svg" swatch="graphite" alt="">
+        </div>
+        <p><span>Sierra Blue</span>, <span>Silver</span>, <span>Gold</span>, <span>Graphite</span></p>
+      </div>
+    </div>
+    <!-- Right -->
+    <div class="purchase-right flex-1">
+      <img class="blue phone" src="./images/blue-closeup.png" alt="">
+      <img class="silver phone" src="./images/silver-closeup.png" alt="">
+      <img class="gold phone" src="./images/gold-closeup.png" alt="">
+      <img class="graphite phone" src="./images/graphite-closeup.png" alt="">
+    </div>
+  </section>
+  <!-- Fifth Page Video Scroll -->
+  <section class="fifth__page">
+    <video class="product-video" src="./images/output-2.mp4" muted></video>
+    <div class="product-info__container flex">
+      <div class="left-info">
+        <h3>up to</br><span class="fs-500">25% higher outdoors</span></br>for content that looks more vivid in sunlight.
+        </h3>
+        <h3><span>Even more display area</span> </br>thanks to smaller camera system.</h3>
+      </div>
+      <div class="right-info">
+        <h3><span class="fs-500">Custom OLED technology</span></br>pushes the display's incredible resolution and color
+          right to the
+          edge.</h3>
+        <h3>up to <span>1200 nits</span> peak brightness for your HDR for your photos and videos</h3>
+      </div>
+    </div>
+  </section>
+  <!-- Sixth Page -->
+  <section class="sixth__page flex">
+    <div class="photo__description">
+      <h3 class="photo__title fs-500">Customize</br>your camera to</h3>
+      <h4 class="photo__subtitle fs-700">lock in your look.</h4>
+    </div>
+    <div class="portrait__container">
+      <img class="portrait" src="./images/portrait.jpg" alt="">
+    </div>
+    <!-- Iphone video -->
+    <div class="phone-video">
+      <img src="./images/iphone-frame.png" alt="">
+      <video src="./images/iphone-camera-video.mp4" autoplay muted loop></video>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+    integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
